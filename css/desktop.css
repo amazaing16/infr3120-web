@@ -43,7 +43,7 @@ header nav .my-picture img{
 main{
     width: 100%;
 }
-main section{
+main section.profile{
     width: 80%;
     display: flex;
     margin: 0 auto;
@@ -83,6 +83,28 @@ main section aside .my-picture{
 main section aside .my-picture img{
     width: 100%;
 }
+main section.video{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #DB25A5, #DB2537, #DB6025);;
+    padding: 20px 30px;
+}
+main section.video h2{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+main section.video video {
+    max-width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
 /* Footer  */
 footer{
     width: 100%;
