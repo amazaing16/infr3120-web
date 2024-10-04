@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <!-- Header  -->
+    <header>
+        <nav>
+            <div class="my-picture">
+                <img src="./my-picture.jpeg" alt="My picture">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+                <li><a href="my-projects.html">My Projects</a></li>
+                <li><a href="contact-me.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="project-wrap">
+        
+        <h1>Contact Me</h1>
+
+    <form class="contact-form" action="mailto:zaingee2000@gmail.com" method="post">
+        <div class="form-group">
+            <label for="name">Name <span class="error">*</span></label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email <span class="error">*</span></label>
+            <input type="email" id="email" name="email" required placeholder="Your Email">
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Cell No. <span class="error">*</span></label>
+            <input type="tel" id="phone" name="phone" required placeholder="Your Phone Number">
+        
+        </div>
+
+        <div class="form-group">
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Your Comments"></textarea>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    </main>
+
+
+    <!-- Footer  -->
+    <footer>
+        <div class="my-picture">
+            <img src="./my-picture.jpeg" alt="My picture">
+        </div>
+        <p>Email me @ <a href="mailto:zaingee2000@gmail.com">zaingee2000@gmail.com</a></p>
+        <p>© Copyright 2024 | Zain Garuba | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

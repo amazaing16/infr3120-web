@@ -47,7 +47,6 @@ main section.profile{
     width: 80%;
     display: flex;
     margin: 0 auto;
-    justify-content: space-between;
     height: 60vh;
 }
 main section aside{
@@ -77,7 +76,6 @@ main section aside .my-picture{
     height: 400px;
     border-radius: 100%;
     overflow: hidden;
-    display: block;
 }
 
 main section aside .my-picture img{
@@ -144,6 +142,52 @@ main section.video video {
     list-style-type: disc;
 }
 
+/* Contact me */
+
+.contact-form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+textarea {
+    resize: vertical; 
+}
+input[type="submit"] {
+    background: linear-gradient(45deg, #DB25A5, #DB2537, #DB6025);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.5s;
+}
+input[type="submit"]:hover {
+    background: linear-gradient(360deg, #DB25A5, #DB2537, #DB6025);
+}
+
+
 
 /* Footer  */
 footer{
@@ -166,5 +210,10 @@ footer .my-picture img{
     width: 100%;
 }
 footer p{
+    color: #fff;
+    margin-bottom: 15px;
+}
+footer p a{
+    text-decoration: none;
     color: #fff;
 }

@@ -1,0 +1,12 @@
+@media screen and (max-width: 1024px) {
+    main section{
+        width: 95%;
+    }
+    main section aside .my-picture {
+        width: 300px;
+        height: 300px;
+    }
+    main section.video video {
+        max-width: 80%;
+    }
+}
