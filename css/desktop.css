@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #DB25A5;
+    width: 100%;
+    padding: 20px 0px;
+}
+header nav{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 15px;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+header nav .my-picture{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+header nav .my-picture img{
+    width: 100%;
+}
+
+/* Landing Page  */
+
+main{
+    width: 100%;
+}
+main section{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 60vh;
+}
+main section aside{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section aside h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+main section aside p{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+main section aside a{
+    display: inline-block;
+    padding: 20px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #DB25A5, #DB2537, #DB6025);
+    color: #fff;
+    text-decoration: none;
+}
+main section aside .my-picture{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+main section aside .my-picture img{
+    width: 100%;
+}
+/* Footer  */
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px 0px;
+}
+footer .my-picture{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px 0px;
+}
+footer .my-picture img{
+    width: 100%;
+}
+footer p{
+    color: #fff;
+}
